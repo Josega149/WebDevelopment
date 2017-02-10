@@ -1,0 +1,46 @@
+
+.about-me-area {
+    background: #fff;
+}
+
+.about-me-text h2 {
+    margin-bottom: 20px;
+}
+
+.about-me-text p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+a.about-button {
+    display: inline-block;
+    padding: 10px;
+    background: #334;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+#firstParagraph, #secondParagraph{
+
+    border-style: solid;
+    border-color: black;
+    box-sizing: border-box;
+    border-spacing: : 10% 13% 10% 13%;
+}
+#firstParagraph{
+
+    padding: 1% 5% 1% 1%;
+}
+ #secondParagraph{
+
+    padding: 1% 1% 1% 5%;
+}

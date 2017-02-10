@@ -1,0 +1,75 @@
+/**
+		Basado en : http://maxdesign.com.au/articles/percentage/;
+
+*/
+.skills-area {
+    background: #f8f8f8;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+ul.graph{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	background-color: Bisque ;
+	color:white;
+}
+	
+ul.graph >li{
+	margin-bottom: .5em;
+	padding: .2em;
+	background: #600;
+	border-style: solid;
+	border-color: black;
+}
+	
+ul.graph > li.Java{
+	background-color: #600;
+	width: 88%;
+}
+	
+ul.graph > li.JavaScript{
+	background-color: #600;
+	width: 66%;
+}
+	
+ul.graph > li.Python{
+	background-color: #600;
+	width: 40%;
+}
+	
+ul.graph >  li.HtmlyCss{
+	background-color: #600;
+	width: 78%;
+}
+ul.graph >  li.SQL{
+	background-color: #600;
+	width: 65%;
+}
+
+
+/**Labels basic, intermediate, advanced-->*/
+.flexContainer {
+    display: flex;
+    margin:auto;
+}
+
+.flex-item{
+
+	width: 33.333333333%;
+	text-align: center;
+	box-sizing: border-box;
+	border-right: dotted;
+}
+
+
+#treintaYTresPorciento,
+#sesentaYSietePorcento,
+#cienPorciento{
+		float:right;
+		padding: 0 3px 0 0 ;
+}
+.skillsContent{
+	background-color: Bisque ;
+}

@@ -1,0 +1,17 @@
+Gift loader:
+http://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_loader5
+
+Nav bar:
+https://startbootstrap.com/template-overviews/scrolling-nav/
+
+Graphs:
+http://maxdesign.com.au/articles/percentage/
+http://www.w3schools.com/css/css3_flexbox.asp
+
+Projects:
+pop up:
+http://codepen.io/imprakash/pen/GgNMXO
+
+images:
+http://www.skyscrapercity.com/showthread.php?t=763058
+

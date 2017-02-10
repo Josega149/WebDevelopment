@@ -1,0 +1,184 @@
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #161616;
+    font-family: 'Open Sans Condensed', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+html,
+body {
+    height: 100%
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+    /**text-transform: uppercase;*/
+}
+img{
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    transition: all 0.2s;
+    font-family: 'Raleway', sans-serif;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    border: 0 none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.section-title {
+    color: #333;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* 08.testimonial CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+.testimonial-area {
+    background: #F8F8F8;
+}
+
+.testimonial-list {
+
+    background: #fff;
+}
+
+.single-testimonial {
+    text-align: center;
+    padding: 80px 200px;
+}
+
+.single-testimonial h3 {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.single-testimonial img {
+    border-radius: 50%;
+    width: 80px;
+}
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* 10.CONTACT AREA CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+.Contact {
+    background: #F6F6F6;
+}
+
+.single-contact {
+    text-align: center;
+}
+
+.single-contact h2 {
+    margin: 10px 0px;
+}
+
+.contact-form {
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+.contact-form input {
+    height: 50px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
+
+.contact-form textarea {
+    height: 250px;
+    border-radius: 0px;
+}
+
+.contact-form button {
+    display: inline-block;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0px 10px;
+    border-radius: 40px;
+    width: 180px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+    border: none;
+}
+
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* 11.FOOTER AREA CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+.footer-area {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.footer-area p {
+    margin: 0;
+}

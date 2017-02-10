@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    rect {
+        fill: steelblue;
+    }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+
+      <rect id="rect" x="10" y="110" width="30" height="10" />
+    </svg>
+
+    </div>
+    <button id="myButton">Increment</button>
+    <label id="countLabel" for="myButton">0</label>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script>
+        var objectButton = {count:0};
+        
+        $("#myButton").on("click", function() {
+            objectButton.count = objectButton.count +1;
+            console.log(objectButton.count);
+            $("#countLabel").text(objectButton.count);
+            document.getElementById('rect').setAttribute("width", 30+objectButton.count*5);
+        });
+    </script>
+</body>
+</html>
