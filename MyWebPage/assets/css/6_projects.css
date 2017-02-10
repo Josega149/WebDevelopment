@@ -1,6 +1,28 @@
 .proyectos{
-	border-style: solid;
-	border-color: black;
+
+}
+
+
+.thumbnail{
+	width: 380%;
+
+}
+.btnDefaultContainer{
+	background-position: center center;
+}
+.btnDefaultP{
+	position: relative;
+	left: 33%;
+}
+.proyectTitle{
+	text-align: center;
+}
+#mainTitle{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Merriweather', serif;
+	font-size: 100%;
+	text-decoration: underline;
 
 
 }
