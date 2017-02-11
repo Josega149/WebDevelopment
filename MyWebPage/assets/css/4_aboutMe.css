@@ -30,22 +30,8 @@ a.about-button {
     transition: .4s;
 }
 
-#firstParagraph, #secondParagraph{
-
-    border-style: solid;
-    border-color: black;
-    box-sizing: border-box;
-    border-spacing: : 10% 13% 10% 13%;
-}
-#firstParagraph{
-
-    padding: 1% 5% 1% 1%;
-}
- #secondParagraph{
-
-    padding: 1% 1% 1% 5%;
-}
 .me-image{
-    width: 20%;
-    height: 20%;
+    
+    width: 30em;
+    height: 10em;
 }
