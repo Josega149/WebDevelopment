@@ -24,6 +24,19 @@
 	background: url("/assets/images/Projects/corals.jpg" );
 	background-position: cover;
 }
+#img4{
+	background: url("/assets/images/Projects/incognito4.png");
+	background-size: contain;
+}
+#img5{
+	background: url("/assets/images/Projects/incognito5.jpg" );
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#img6{
+	background: url("/assets/images/Projects/incognito6.png" );
+	background-position: cover;
+}
 
 .btnDefaultContainer{
 	background-position: center center;
@@ -95,4 +108,9 @@
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+.caption >p  {
+    text-align: justify;
+    font-size: 150%;
 }
