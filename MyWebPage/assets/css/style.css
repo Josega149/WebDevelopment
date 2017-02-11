@@ -36,11 +36,15 @@ h6 {
 img{
     width: 100%;
 }
-a {
+a,p {
     text-decoration: none;
     -webkit-transition: all 0.4s;
     transition: all 0.2s;
     font-family: 'Raleway', sans-serif;
+}
+p{
+    text-align: justify;
+    font-size: 150%;
 }
 
 a:hover {
