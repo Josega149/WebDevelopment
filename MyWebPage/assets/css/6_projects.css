@@ -12,29 +12,29 @@
 	
 }
 #img1{
-	background: url("/assets/images/Projects/OilCol.jpg");
+	background: url("/assets/images/OilCol.jpg");
 	background-size: contain;
 }
 #img2{
-	background: url("/assets/images/Projects/port.jpg" );
+	background: url("/assets/images/port.jpg" );
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 #img3{
-	background: url("/assets/images/Projects/corals.jpg" );
+	background: url("/assets/images/corals.jpg" );
 	background-position: cover;
 }
 #img4{
-	background: url("/assets/images/Projects/incognito4.png");
+	background: url("/assets/images/incognito4.png");
 	background-size: contain;
 }
 #img5{
-	background: url("/assets/images/Projects/incognito5.jpg" );
+	background: url("/assets/images/incognito5.jpg" );
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 #img6{
-	background: url("/assets/images/Projects/incognito6.png" );
+	background: url("/assets/images/incognito6.png" );
 	background-position: cover;
 }
 
