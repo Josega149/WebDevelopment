@@ -1,12 +1,30 @@
-.proyectos{
-
-}
-
 
 .thumbnail{
-	width: 380%;
+	width:  20em;
+	height: 23em;
 
 }
+.projectsPics{
+	width:  19em;
+	height: 15em;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+#img1{
+	background: url("/assets/images/Projects/OilCol.jpg");
+	background-size: contain;
+}
+#img2{
+	background: url("/assets/images/Projects/port.jpg" );
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#img3{
+	background: url("/assets/images/Projects/corals.jpg" );
+	background-position: cover;
+}
+
 .btnDefaultContainer{
 	background-position: center center;
 }
@@ -23,6 +41,5 @@
 	font-family: 'Merriweather', serif;
 	font-size: 100%;
 	text-decoration: underline;
-
-
 }
+
