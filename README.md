@@ -2,7 +2,7 @@
 Projects make to WebDev class. 
 
 ## Projects
-- [My home page](https://josega149.github.io/WebDevelopment/HomePage/)
+- [My home page](https://josega149.github.io/WebDevelopment/MyWebPage/)
 - [Tweet viewer](https://josega149.github.io/WebDevelopment/twitterViewer/)
 - [Student´s list](https://josega149.github.io/WebDevelopment/StudentsList/)
 
