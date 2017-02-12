@@ -1,4 +1,14 @@
 
+#imageContainer{
+    text-align: center;
+    border-style: solid;
+    box-sizing: border-box;
+    background: url("/assets/images/me1.jpg") no-repeat;
+    background-size: cover;
+    width: 25em;
+    height: 38.38em;
+}
+
 .about-me-area {
     background: #fff;
 }
@@ -28,10 +38,17 @@ a.about-button {
     margin-right: 20px;
     -webkit-transition: .4s;
     transition: .4s;
+      cursor: pointer;
+}
+a.about-button:hover {
+  background: #06D85F;
+  color:black;
 }
 
-.me-image{
-    
-    width: 30em;
-    height: 10em;
+
+
+
+#firstP, #secondP{
+
+    display: block;
 }
