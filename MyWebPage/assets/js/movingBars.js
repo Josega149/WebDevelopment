@@ -10,21 +10,15 @@ $(function(){
     			num+=1;
     		}
     );
-
     $('.skills-area').hover(
     		function move() 
     		{
-
     			if(num%2 !== 0)
     			{
     				console.log("moving");
-
-
 				    var java = document.getElementsByClassName("Java")[0]; 
-
 				    var width = 5;
 				    var id = setInterval(frame, 10);
-
 				    function frame() 
 				    {
 				        if (width >= 88) {
@@ -39,40 +33,15 @@ $(function(){
     			
 			}
 	);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	$('.skills-area').hover(
     		function move() 
     		{
     			if(num%2 !== 0)
     			{
-    			
     				console.log("moving");
-
 				    var javaS = document.getElementsByClassName("JavaScript")[0];
-
-
 				    var width = 5;
 				    var id = setInterval(frame, 10);
-
 				    function frame() 
 				    {
 				        if (width >= 66) {
@@ -87,36 +56,15 @@ $(function(){
     			
 			}
 	);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	$('.skills-area').hover(
     		function move() 
     		{
     			if(num%2 !== 0)
-    			{
     			
     				console.log("moving");
-
 				    var py = document.getElementsByClassName("Python")[0];
-
 				    var width = 5;
 				    var id = setInterval(frame, 10);
-
 				    function frame() 
 				    {
 				        if (width >= 40) {
@@ -131,37 +79,15 @@ $(function(){
     			}
 			}
 	);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	$('.skills-area').hover(
     		function move() 
     		{
     			if(num%2 !== 0)
     			{
-    			
     				console.log("moving");
-
 				    var htm = document.getElementsByClassName("HtmlyCss")[0];
-
 				    var width = 5;
 				    var id = setInterval(frame, 10);
-
 				    function frame() 
 				    {
 				        if (width >= 78) {
@@ -176,38 +102,15 @@ $(function(){
     			}
 			}
 	);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	$('.skills-area').hover(
     		function move() 
     		{
     			if(num%2 !== 0)
     			{
-    			
     				console.log("moving");
-
-
 				    var sql = document.getElementsByClassName("SQL")[0];
-
 				    var width = 5;
 				    var id = setInterval(frame, 10);
-
 				    function frame() 
 				    {
 				        if (width >= 65) {
@@ -222,8 +125,6 @@ $(function(){
     			
 			}
 	);
-
-
     window.isHovering = function (selector) {
         return $(selector).data('hover')?true:false; //check element for hover property
     }
