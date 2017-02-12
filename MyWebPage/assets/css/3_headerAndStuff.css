@@ -71,33 +71,32 @@
 
 .header-text >  h4 {
 
-    font-size: 5px;
+    font-size: 20px;
     text-transform: uppercase;
     float:left;
 }
 .header-text > div> h1 {
     
+    line-height:100%; 
+    width: 25%;
     margin: 0;
+    font-weight: 200;
 
 }
-#headerH1 > h1{
+#headerH1{
 
     float:left;
-    
-
-    border-style: solid;
-    border-color: black;
-
-    font-size: 2px;
-
     box-sizing:border-box;
+    /**border-style: solid;
+    border-color: black;*/
+    height:4em;
     
 }
 .header-text > h3 {
     float: left;
     width: 50%;
     margin: 10px 10px;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 50;
     letter-spacing: 7px;
 }
