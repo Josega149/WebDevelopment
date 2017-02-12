@@ -22,4 +22,20 @@
     border-radius: 50%;
     width: 80px;
 }
+#contentMobileIdeas{
+	display: none;
+}
+
+@media only screen and (max-device-width: 480px)
+{
+	#contentMobileIdeas
+	{
+		display: block;
+	}
+	#contentPcIdeas{
+		display: none;
+	}
+}
+
+
 

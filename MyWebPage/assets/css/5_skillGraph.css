@@ -73,3 +73,14 @@ ul.graph >  li.SQL{
 .skillsContent{
 	background-color: Bisque ;
 }
+#contentMobileSkills{
+	display: none;
+}
+@media only screen and (max-device-width: 480px)
+{
+	#contentMobileSkills
+	{
+		display: block;
+
+	}
+}
