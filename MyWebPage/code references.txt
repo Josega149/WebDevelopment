@@ -17,3 +17,6 @@ http://getbootstrap.com/components/#thumbnails
 
 pop-up:
 http://www.w3schools.com/howto/howto_css_modals.asp
+
+skills bar:
+http://www.w3schools.com/howto/howto_js_progressbar.asp
