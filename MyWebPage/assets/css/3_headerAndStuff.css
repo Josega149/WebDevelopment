@@ -71,7 +71,7 @@
 
 .header-text >  h4 {
 
-    font-size: 20px;
+    font-size: 5px;
     text-transform: uppercase;
     float:left;
 }
@@ -90,13 +90,14 @@
     /**border-style: solid;
     border-color: black;*/
     height:4em;
+    font-size: 30px;
     
 }
 .header-text > h3 {
     float: left;
     width: 50%;
     margin: 10px 10px;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 50;
     letter-spacing: 7px;
 }
