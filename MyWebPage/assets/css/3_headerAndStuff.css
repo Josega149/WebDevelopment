@@ -1,6 +1,7 @@
 
 .header-area {
-    background: url(../images/bg1.JPG) no-repeat;
+    background: url(../images/bg1.jpg) no-repeat;
+
     background-size: contain;
     position: relative;
     background-position: center center;
@@ -27,6 +28,7 @@
 
     font-size: 1em;
     text-transform: uppercase;
+    float:right;
     
 }
 #headerH1{
@@ -35,6 +37,7 @@
     box-sizing:border-box;
     /**border-style: solid;
     border-color: black;*/
+    height:5em;
     
 }
 .header-text > h3 {
@@ -66,6 +69,7 @@
 
     font-size: 50px;
     text-transform: uppercase;
+    float:right;
 }
 .header-text > div> h1 {
     
