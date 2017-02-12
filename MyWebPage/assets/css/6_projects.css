@@ -12,8 +12,8 @@
 	
 }
 #img1{
-	background: url("/assets/images/OilCol.jpg");
-	background-size: contain;
+	/**background: url("/assets/images/OilCol.jpg");
+	background-size: contain;*/
 }
 #img2{
 	background: url("/assets/images/port.jpg" );

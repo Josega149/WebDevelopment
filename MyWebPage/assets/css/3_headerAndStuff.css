@@ -1,7 +1,7 @@
 
 .header-area {
     background: url(../images/bg1.jpg) no-repeat;
-    background-size: cover;
+    background-size: contain;
     position: relative;
     background-position: center center;
     height: 100%;
@@ -15,7 +15,6 @@
 
 .header-text > div> h1 {
     
-    line-height:100%; 
     width: 25%;
     margin: 0;
     font-weight: 700;
@@ -32,8 +31,10 @@
 }
 #headerH1{
 
-    float:right;
+    float:left;
     box-sizing:border-box;
+    /**border-style: solid;
+    border-color: black;*/
     
 }
 .header-text > h3 {
@@ -44,8 +45,7 @@
     font-size: 30px;
     font-weight: 200;
     letter-spacing: 7px;
-    position: relative;
-    left:58%;
+    float:left;
 }
 
 .header-text {
