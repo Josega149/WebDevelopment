@@ -74,9 +74,11 @@
         margin: 0;
         font-weight: 700;
 
-        font-size: 6em;
+        font-size: 40px;
 
         border-style: solid;
+
+
 
     }
 
@@ -84,7 +86,7 @@
 
         float:left;
         box-sizing:border-box;
-
+        
         height:10em;
     
     }
