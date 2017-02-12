@@ -67,7 +67,7 @@ fieldset {
 }
 
 .notSee {
-    display: none;
+   /** display: none;*/
 }
 
 
