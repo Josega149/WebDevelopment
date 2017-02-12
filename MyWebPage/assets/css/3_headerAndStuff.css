@@ -73,7 +73,7 @@
 
     font-size: 20px;
     text-transform: uppercase;
-    float:left;
+    float:right;
 }
 .header-text > div> h1 {
     
@@ -82,7 +82,7 @@
     margin: 0;
     font-weight: 200;
 
-    font-size: 50px;
+    font-size: 70px;
 }
 #headerH1{
 
@@ -94,12 +94,14 @@
     
 }
 .header-text > h3 {
-    float: left;
+    float: right;
     width: 50%;
     margin: 10px 10px;
     font-size: 20px;
     font-weight: 50;
     letter-spacing: 7px;
+    position: relative;
+    left:58%;
 }
 
 
