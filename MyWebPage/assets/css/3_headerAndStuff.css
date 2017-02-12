@@ -82,7 +82,7 @@
     margin: 0;
     font-weight: 200;
 
-    font-size: 70px;
+    font-size: 50px;
 }
 #headerH1{
 
@@ -100,8 +100,6 @@
     font-size: 20px;
     font-weight: 50;
     letter-spacing: 7px;
-    position: relative;
-    left:58%;
 }
 
 
