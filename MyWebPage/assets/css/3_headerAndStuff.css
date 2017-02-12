@@ -1,6 +1,6 @@
 
 .header-area {
-    background: url(../images/bg1.jpg) no-repeat;
+    background-image: url(../images/bg1.jpg) no-repeat;
 
     background-size: cover;
     background-position: center center;

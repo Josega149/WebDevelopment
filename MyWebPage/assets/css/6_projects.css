@@ -12,29 +12,29 @@
 	
 }
 #img1{
-	background: url(../images/OilCol.jpg);
+	background-image: url(../images/OilCol.jpg);
 	background-size: contain;
 }
 #img2{
-	background: url(../images/port.jpg );
+	background-image: url(../images/port.jpg );
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 #img3{
-	background: url(../images/corals.jpg );
+	background-image: url(../images/corals.jpg );
 	background-position: cover;
 }
 #img4{
-	background: url(../images/politics.jpg);
+	background-image: url(../images/politics.jpg);
 	background-size: cover;
 }
 #img5{
-	background: url(../images/incognito5.jpg);
+	background-image: url(../images/incognito5.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 #img6{
-	background: url(../images/incognito6.png);
+	background-image: url(../images/incognito6.png);
 	background-position: cover;
 }
 
