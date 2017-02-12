@@ -1,4 +1,9 @@
-        $(".futureIdeas-list").owlCarousel({
+
+(function ($) {
+    'use strict';
+
+    jQuery(document).ready(function () {
+            $(".futureIdeas-list").owlCarousel({
             items: 1,
             autoPlay: true,
             navigation: false,
@@ -10,3 +15,6 @@
             pagination: false,
             autoHeight: true,
         });
+    });
+
+})(jQuery);
