@@ -10,6 +10,7 @@ $(function(){
     			num+=1;
     		}
     );
+
     $('.skills-area').hover(
     		function move() 
     		{
@@ -33,6 +34,7 @@ $(function(){
     			
 			}
 	);
+
 	$('.skills-area').hover(
     		function move() 
     		{
@@ -56,10 +58,12 @@ $(function(){
     			
 			}
 	);
+
 	$('.skills-area').hover(
     		function move() 
     		{
     			if(num%2 !== 0)
+    			{
     			
     				console.log("moving");
 				    var py = document.getElementsByClassName("Python")[0];
@@ -79,6 +83,7 @@ $(function(){
     			}
 			}
 	);
+
 	$('.skills-area').hover(
     		function move() 
     		{
@@ -102,6 +107,7 @@ $(function(){
     			}
 			}
 	);
+
 	$('.skills-area').hover(
     		function move() 
     		{
@@ -125,6 +131,7 @@ $(function(){
     			
 			}
 	);
+
     window.isHovering = function (selector) {
         return $(selector).data('hover')?true:false; //check element for hover property
     }

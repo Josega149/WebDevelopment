@@ -76,7 +76,7 @@
         });
         $(".testimonial-list").owlCarousel({
             items: 1,
-            autoPlay: 5000,
+            autoPlay: 15000,
             navigation: false,
             itemsDesktop: [1199, 1],
             itemsDesktopSmall: [980, 1],
