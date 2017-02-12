@@ -82,6 +82,7 @@
     margin: 0;
     font-weight: 200;
 
+    font-size: 50px;
 }
 #headerH1{
 
@@ -89,7 +90,7 @@
     box-sizing:border-box;
     /**border-style: solid;
     border-color: black;*/
-    height:4em;
+    height:5em;
     
 }
 .header-text > h3 {
