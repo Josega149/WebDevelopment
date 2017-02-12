@@ -77,13 +77,10 @@
 }
 .header-text > div> h1 {
     
-    line-height:100%; 
-    width: 25%;
     margin: 0;
-    font-weight: 200;
 
 }
-#headerH1{
+#headerH1 > h1{
 
     float:left;
     
@@ -91,8 +88,7 @@
     border-style: solid;
     border-color: black;
 
-    height:4em;
-    font-size: 30px;
+    font-size: 2px;
 
     box-sizing:border-box;
     
