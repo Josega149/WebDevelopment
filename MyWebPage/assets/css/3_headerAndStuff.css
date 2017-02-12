@@ -23,8 +23,6 @@
     margin-bottom: 20px;
 
     font-size: 5em;
-
-    
     
 }
 
@@ -73,7 +71,7 @@
 
 .header-text >  h4 {
 
-    font-size: 50px;
+    font-size: 20px;
     text-transform: uppercase;
     float:right;
 }
@@ -84,7 +82,7 @@
     margin: 0;
     font-weight: 200;
 
-    font-size: 200px;
+    font-size: 100px;
 }
 .header-text > h3 {
     width: 50%;
