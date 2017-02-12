@@ -27,7 +27,6 @@ $(function(){
 
 				    function frame() 
 				    {
-				    	console.log("framing");
 				        if (width >= 88) {
 				            clearInterval(id);
 				        } 
@@ -76,7 +75,6 @@ $(function(){
 
 				    function frame() 
 				    {
-				    	console.log("framing");
 				        if (width >= 66) {
 				            clearInterval(id);
 				        } 
@@ -121,7 +119,6 @@ $(function(){
 
 				    function frame() 
 				    {
-				    	console.log("framing");
 				        if (width >= 40) {
 				            clearInterval(id);
 				        } 
@@ -167,7 +164,6 @@ $(function(){
 
 				    function frame() 
 				    {
-				    	console.log("framing");
 				        if (width >= 78) {
 				            clearInterval(id);
 				        } 
@@ -214,7 +210,6 @@ $(function(){
 
 				    function frame() 
 				    {
-				    	console.log("framing");
 				        if (width >= 65) {
 				            clearInterval(id);
 				        } 
