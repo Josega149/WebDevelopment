@@ -1,0 +1,44 @@
+
+
+.Contact {
+    background: #F6F6F6;
+}
+
+.single-contact {
+    text-align: center;
+}
+
+.single-contact h2 {
+    margin: 10px 0px;
+}
+
+.contact-form {
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+.contact-form input {
+    height: 50px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
+
+.contact-form textarea {
+    height: 250px;
+    border-radius: 0px;
+}
+
+.contact-form button {
+    display: inline-block;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0px 10px;
+    border-radius: 40px;
+    width: 180px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+    border: none;
+}

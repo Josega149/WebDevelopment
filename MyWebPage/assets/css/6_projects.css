@@ -25,8 +25,8 @@
 	background-position: cover;
 }
 #img4{
-	background: url("/assets/images/incognito4.png");
-	background-size: contain;
+	background: url("/assets/images/politics.jpg");
+	background-size: cover;
 }
 #img5{
 	background: url("/assets/images/incognito5.jpg" );

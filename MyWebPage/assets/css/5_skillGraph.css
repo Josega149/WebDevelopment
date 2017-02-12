@@ -26,26 +26,26 @@ ul.graph >li{
 	
 ul.graph > li.Java{
 	background-color: #600;
-	width: 88%;
+	width: 0;/**88%;*/
 }
 	
 ul.graph > li.JavaScript{
 	background-color: #600;
-	width: 66%;
+	width: 0;/**66%;*/
 }
 	
 ul.graph > li.Python{
 	background-color: #600;
-	width: 40%;
+	width: 0;/**40%;*/
 }
 	
 ul.graph >  li.HtmlyCss{
 	background-color: #600;
-	width: 78%;
+	width: 0;/**78%;*/
 }
 ul.graph >  li.SQL{
 	background-color: #600;
-	width: 65%;
+	width: 0;/**65%;*/
 }
 
 

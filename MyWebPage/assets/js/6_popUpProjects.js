@@ -231,7 +231,7 @@ span6.onclick = function() {
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-    if (event.target == modal) {
+    if (event.target == modal6) {
         modal6.style.display = "none";
     }
 }
