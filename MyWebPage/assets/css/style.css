@@ -88,38 +88,6 @@ fieldset {
 
 
 
-
-/*
-* ----------------------------------------------------------------------------------------
-* 08.testimonial CSS STYLE
-* ----------------------------------------------------------------------------------------
-*/
-
-.testimonial-area {
-    background: #F8F8F8;
-}
-
-.testimonial-list {
-
-    background: #fff;
-}
-
-.single-testimonial {
-    text-align: center;
-    padding: 80px 200px;
-}
-
-.single-testimonial h3 {
-    font-size: 12px;
-    font-style: italic;
-}
-
-.single-testimonial img {
-    border-radius: 50%;
-    width: 80px;
-}
-
-
 /*
 * ----------------------------------------------------------------------------------------
 * 10.CONTACT AREA CSS STYLE
