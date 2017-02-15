@@ -1,4 +1,4 @@
-var valores = {java: 88, javaS:70, py:40, htm: 78, sql:65};
+var valores = {java: 94, javaS:70, py:40, htm: 78, sql:65};
 var num=0;
 
 
@@ -22,7 +22,7 @@ $(function(){
 				    var id = setInterval(frame, 10);
 				    function frame() 
 				    {
-				        if (width >= 88) {
+				        if (width >= 94) {
 				            clearInterval(id);
 				        } 
 				        else {
