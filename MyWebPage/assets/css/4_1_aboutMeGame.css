@@ -46,7 +46,7 @@
 #gamePanel{
   display: flex;
   box-sizing: border-box;
-  width: 80%
+  width: 85%;
   height:10em;
   border-style: solid;
 }
@@ -55,4 +55,7 @@
   height:20em;
   box-sizing: border-box;
   border-style: solid;
+}
+
+
 }
