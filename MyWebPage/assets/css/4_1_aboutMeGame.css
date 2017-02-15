@@ -8,6 +8,8 @@
 
     visibility: hidden;
 
+    border-style: solid;
+
 }
 .buttons{
     width: 50px;
@@ -16,9 +18,10 @@
     margin:5px;
     text-align: center;
 
+    border-style: solid;
+
 
 }
-
 
 .gameContainer{
   display: flex;
@@ -37,4 +40,19 @@
 
 #difficult{
   background-color: yellow;
+}
+
+
+#gamePanel{
+  display: flex;
+  box-sizing: border-box;
+  width: 80%
+  height:10em;
+  border-style: solid;
+}
+#controlPanel{
+  width: 40%;
+  height:20em;
+  box-sizing: border-box;
+  border-style: solid;
 }

@@ -27,7 +27,7 @@
     <link href="assets/css/2_NavBar.css" rel="stylesheet" type="text/css">
     <link href="assets/css/3_headerAndStuff.css" rel="stylesheet" type="text/css">
     <link href="assets/css/4_aboutMe.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="assets/css/4_1_aboutMeTimeline.css">
+    <link rel="stylesheet" href="assets/css/4_1_aboutMeGame.css">
     <link href="assets/css/5_skillGraph.css" rel="stylesheet" type="text/css">
     <link href="assets/css/6_projects.css" rel="stylesheet" type="text/css">
     <link href="assets/css/7_ideasForFuture.css" rel="stylesheet" type="text/css">
@@ -166,53 +166,51 @@
 
                     <div class="col-md-12">
                         <section class="game">
-                        <br><h2>Was my description too boring??  Play this game I made especially for you!</h2> Within 2 minutes get the higher score as possible. Select the numbers that sum the target  <br>
+                        <br><h2>Was my description too boring??  Play this game I made especially for you!</h2> Within 1 minutes get the higher score as possible. Select the numbers that sum the target  <br>
 
-                            <div class="gameContainer">
+                            <div class="gameContainer row">
 
-                                <div class="object1">
-                                    <button class="buttonsN" id="button1"></button>
-                                    
+                                <div class="col-md-8" id="gamePanel">
+                                        <div class="object1">
+                                            <button class="buttonsN" id="button1"></button>
+                                        </div>
+                                        <div class="object2">
+                                            <button class="buttonsN" id="button2"></button>
+                                                                    
+                                        </div>
+                                        <div class="object3">
+                                             <button class="buttonsN" id="button3"></button>
+                                                                    
+                                        </div>
+                                        <div class="object4">
+                                            <button class="buttonsN" id="button4"></button>
+                                        </div>
+                                        <div class="object5">
+                                            <button class="buttonsN" id="button5"></button>
+                                        </div>
+                                        <div class="object6"> 
+                                            <button class="buttonsN" id="buttons6"></button> 
+                                        </div>
+                                        <br><br><h3 id="scoreGame"> Score: 0</h3>
                                 </div>
-
-                                <div class="object2">
-                                    <button class="buttonsN" id="button2"></button>
-                                    
-                                </div>
-                                <div class="object3">
-                                    <button class="buttonsN" id="button3"></button>
-                                    
-                                </div>
-                                <div class="object4">
-                                    <button class="buttonsN" id="button4"></button>
-                                    
-                                </div>
-                                <div class="object5">
-                                    <button class="buttonsN" id="button5"></button>
-                                    
-                                </div>
-                                <div class="object6"> 
-                                    <button class="buttonsN" id="buttons6"></button> 
-                                </div>
-                                <div class="toFill"> <button class="fills" ></button> </div>
-                                <div class="toFill"> <button class="fills" ></button> </div>
-                                <div class="toFill"> <button class="fills" ></button> </div>
-                                <div class="toFill"> <button class="fills" ></button> </div>
-                                <div class="target">
-                                    <button class="buttons" id="targetButton"></button>
-                                    <h4>TARGET</h4>
-                                </div>
-                                <div class="time">
-                                    <button class="buttons" id="timeButton"></button>
-                                    <h4>TIMER</h4>
-                                </div>
-                                <div class="start">
-                                    <button class="buttons" id="startButton"></button>
-                                    <h4>START</h4>
+                              
+                                <div class="col-md-4" id="controlPanel">
+                                    <div class="target">
+                                        <button class="buttons" id="targetButton"></button>
+                                        <h4>TARGET</h4>
+                                    </div>
+                                    <div class="time">
+                                        <button class="buttons" id="timeButton"></button>
+                                        <h4>TIMER</h4>
+                                    </div>
+                                    <div class="start">
+                                        <button class="buttons" id="startButton"></button>
+                                        <h4>START</h4>
+                                        </div>
                                 </div>
 
                             </div>
-                        <br><h3>Score:</h3><h3 id="scoreGame">0</h3>
+                        
                         <!--<div class="start">
                                     <button class="buttons" id="difficult">Easy</button>
                                     <h4>Difficult</h4>
