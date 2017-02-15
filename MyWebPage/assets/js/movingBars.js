@@ -1,4 +1,4 @@
-var valores = {java: 88, javaS:66, py:40, htm: 78, sql:65};
+var valores = {java: 88, javaS:70, py:40, htm: 78, sql:65};
 var num=0;
 
 
@@ -16,7 +16,7 @@ $(function(){
     		{
     			if(num%2 !== 0)
     			{
-    				console.log("moving");
+    				//console.log("moving");
 				    var java = document.getElementsByClassName("Java")[0]; 
 				    var width = 5;
 				    var id = setInterval(frame, 10);
@@ -40,13 +40,13 @@ $(function(){
     		{
     			if(num%2 !== 0)
     			{
-    				console.log("moving");
+    				//console.log("moving");
 				    var javaS = document.getElementsByClassName("JavaScript")[0];
 				    var width = 5;
 				    var id = setInterval(frame, 10);
 				    function frame() 
 				    {
-				        if (width >= 66) {
+				        if (width >= 70) {
 				            clearInterval(id);
 				        } 
 				        else {
@@ -65,7 +65,7 @@ $(function(){
     			if(num%2 !== 0)
     			{
     			
-    				console.log("moving");
+    				//console.log("moving");
 				    var py = document.getElementsByClassName("Python")[0];
 				    var width = 5;
 				    var id = setInterval(frame, 10);
@@ -89,7 +89,7 @@ $(function(){
     		{
     			if(num%2 !== 0)
     			{
-    				console.log("moving");
+    				//console.log("moving");
 				    var htm = document.getElementsByClassName("HtmlyCss")[0];
 				    var width = 5;
 				    var id = setInterval(frame, 10);
@@ -113,7 +113,7 @@ $(function(){
     		{
     			if(num%2 !== 0)
     			{
-    				console.log("moving");
+    				//console.log("moving");
 				    var sql = document.getElementsByClassName("SQL")[0];
 				    var width = 5;
 				    var id = setInterval(frame, 10);

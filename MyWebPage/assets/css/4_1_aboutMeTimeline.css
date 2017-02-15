@@ -1,0 +1,40 @@
+.buttonsN{
+    width: 50px;
+    height: 50px;
+
+    margin:5px;
+    text-align: center;
+    background-color: #D3D3D3;
+
+    visibility: hidden;
+
+}
+.buttons{
+    width: 50px;
+    height: 50px;
+
+    margin:5px;
+    text-align: center;
+
+
+}
+
+
+.gameContainer{
+  display: flex;
+  text-align: center;
+}
+.toFill{
+  visibility: hidden;
+    width: 50px;
+    height: 50px;
+}
+
+#startButton{
+  background-color: green;
+}
+
+
+#difficult{
+  background-color: yellow;
+}

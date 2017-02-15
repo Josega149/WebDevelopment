@@ -13,8 +13,9 @@
     background: #fff;
 }
 
-.about-me-text h2 {
+.about-me-text p {
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .about-me-text p {
@@ -45,13 +46,18 @@ a.about-button:hover {
   color:black;
 }
 
-
+#rowOfAboutMeContent,#rowOfAboutMeContentSmall{
+    /*order-style: solid;*/
+}
 
 
 #firstP, #secondP{
 
     display: block;
 }
+
+
+
 @media only screen and (max-device-width: 480px)
 {
     #imageContainer{
@@ -66,3 +72,4 @@ a.about-button:hover {
     
 
 }
+
