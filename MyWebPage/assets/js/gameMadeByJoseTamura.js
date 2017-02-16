@@ -132,7 +132,7 @@ function comenzarNuevoJuego() {
 }
 
 $("#button1").on("click", function() {
-    if(botonQueNoHayQueHundir ===-1){$("#button1").text("0");}
+    if(botonQueNoHayQueHundir ===-1){normalizarBotonesTimeUp();}
     if (botonQueNoHayQueHundir === 0) {
         //perdio
         $("#button1").css("background-color", "red");
@@ -151,7 +151,7 @@ $("#button1").on("click", function() {
 });
 
 $("#button2").on("click", function() {
-    if(botonQueNoHayQueHundir ===-1){$("#button2").text("0");}
+    if(botonQueNoHayQueHundir ===-1){normalizarBotonesTimeUp();}
     if (botonQueNoHayQueHundir === 1) {
         //perdio
         $("#button2").css("background-color", "red");
@@ -170,7 +170,7 @@ $("#button2").on("click", function() {
 });
 
 $("#button3").on("click", function() {
-    if(botonQueNoHayQueHundir ===-1){$("#button3").text("0");}
+    if(botonQueNoHayQueHundir ===-1){normalizarBotonesTimeUp();}
     if (botonQueNoHayQueHundir === 2) {
         //perdio
         $("#button3").css("background-color", "red");
@@ -189,7 +189,7 @@ $("#button3").on("click", function() {
 });
 
 $("#button4").on("click", function() {
-    if(botonQueNoHayQueHundir ===-1){$("#button4").text("0");}
+    if(botonQueNoHayQueHundir ===-1){normalizarBotonesTimeUp();}
     if (botonQueNoHayQueHundir === 3) {
         //perdio
         $("#button4").css("background-color", "red");
@@ -208,7 +208,7 @@ $("#button4").on("click", function() {
 });
 
 $("#button5").on("click", function() {
-    if(botonQueNoHayQueHundir ===-1){$("#button5").text("0");}
+    if(botonQueNoHayQueHundir ===-1){normalizarBotonesTimeUp();}
     if (botonQueNoHayQueHundir === 4) {
         //perdio
         $("#button5").css("background-color", "red");
@@ -229,6 +229,11 @@ $("#button5").on("click", function() {
 function normalizarBotones() {
     $(".buttonsN").css("background-color", "#D3D3D3");
     scoreB.text("Score: "+scoreAcumulado);
+}
+function normalizarBotonesTimeUp() {
+    $(".buttonsN").css("background-color", "#D3D3D3");
+    $(".buttonsN").text(-1);
+    alert("Time's up!!");
 }
 
 $("#difficult").on("click", function() {

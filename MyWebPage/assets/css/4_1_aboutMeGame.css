@@ -9,6 +9,7 @@
     visibility: hidden;
 
     border-style: solid;
+    z-index: 999;
 
 }
 .buttons{
