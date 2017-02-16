@@ -22,7 +22,7 @@ span1.onclick = function() {
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-    if (event.target == modal) {
+    if (event.target == modal1) {
         modal1.style.display = "none";
     }
 }
@@ -65,7 +65,7 @@ span2.onclick = function() {
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-    if (event.target == modal) {
+    if (event.target == modal2) {
         modal2.style.display = "none";
     }
 }
@@ -110,7 +110,7 @@ span3.onclick = function() {
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-    if (event.target == modal) {
+    if (event.target == modal3) {
         modal3.style.display = "none";
     }
 }
@@ -143,7 +143,7 @@ span4.onclick = function() {
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-    if (event.target == modal) {
+    if (event.target == modal4) {
         modal4.style.display = "none";
     }
 }
@@ -186,7 +186,7 @@ span5.onclick = function() {
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-    if (event.target == modal) {
+    if (event.target == modal5) {
         modal5.style.display = "none";
     }
 }
@@ -208,7 +208,7 @@ window.onclick = function(event) {
 
 
 
-/** BOTON NUMERO 6*/
+/** BOTON NUMERO 6*
 
 // Get the modal
 var modal6 = document.getElementById('myModal6');
@@ -234,4 +234,4 @@ window.onclick = function(event) {
     if (event.target == modal6) {
         modal6.style.display = "none";
     }
-}
+}*/

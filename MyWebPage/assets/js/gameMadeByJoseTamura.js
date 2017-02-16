@@ -131,100 +131,147 @@ function comenzarNuevoJuego() {
     }
 }
 
+var listaHundidos = [];
+
 $("#button1").on("click", function() {
-    if(botonQueNoHayQueHundir ===-1){normalizarBotonesTimeUp();}
-    if (botonQueNoHayQueHundir === 0) {
+    if(botonQueNoHayQueHundir ===-1){normalizarBotonesTimeUp();
+    }
+    else if (botonQueNoHayQueHundir === 0) {
         //perdio
         $("#button1").css("background-color", "red");
         scoreAcumulado -= 20;
         normalizarBotones();
         comenzarNuevoJuego();
-    } else {
+        listaHundidos = [];
+    } 
+    else if (!listaContiene(1))
+    {
+        listaHundidosAdd(1);
         $("#button1").css("background-color", "green");
         cuantosHaHundido += 1;
         scoreAcumulado += 1;
         if (cuantosHaHundido === 4) {
             normalizarBotones();
             comenzarNuevoJuego();
+            listaHundidos = [];
         }
     }
 });
 
 $("#button2").on("click", function() {
-    if(botonQueNoHayQueHundir ===-1){normalizarBotonesTimeUp();}
-    if (botonQueNoHayQueHundir === 1) {
+    if(botonQueNoHayQueHundir ===-1){normalizarBotonesTimeUp();
+    }
+    else if (botonQueNoHayQueHundir === 1) {
         //perdio
         $("#button2").css("background-color", "red");
         scoreAcumulado -= 20;
         normalizarBotones();
         comenzarNuevoJuego();
-    } else {
+        listaHundidos = [];
+    }
+    else if (!listaContiene(2))
+    {
+        listaHundidosAdd(2);
         $("#button2").css("background-color", "green");
         cuantosHaHundido += 1;
         scoreAcumulado += 1;
         if (cuantosHaHundido === 4) {
             normalizarBotones();
             comenzarNuevoJuego();
+            listaHundidos = [];
         }
     }
 });
 
 $("#button3").on("click", function() {
-    if(botonQueNoHayQueHundir ===-1){normalizarBotonesTimeUp();}
-    if (botonQueNoHayQueHundir === 2) {
+    if(botonQueNoHayQueHundir ===-1){normalizarBotonesTimeUp();
+    }
+    else if (botonQueNoHayQueHundir === 2) {
         //perdio
         $("#button3").css("background-color", "red");
         scoreAcumulado -= 20;
         normalizarBotones();
         comenzarNuevoJuego();
-    } else {
+        listaHundidos = [];
+    }
+    else if (!listaContiene(3))
+    {
+        listaHundidosAdd(3);
         $("#button3").css("background-color", "green");
         cuantosHaHundido += 1;
         scoreAcumulado += 1;
         if (cuantosHaHundido === 4) {
             normalizarBotones();
             comenzarNuevoJuego();
+            listaHundidos = [];
         }
     }
 });
 
 $("#button4").on("click", function() {
-    if(botonQueNoHayQueHundir ===-1){normalizarBotonesTimeUp();}
-    if (botonQueNoHayQueHundir === 3) {
+    if(botonQueNoHayQueHundir ===-1){normalizarBotonesTimeUp();
+    }
+    else if (botonQueNoHayQueHundir === 3) {
         //perdio
         $("#button4").css("background-color", "red");
         scoreAcumulado -= 20;
         normalizarBotones();
         comenzarNuevoJuego();
-    } else {
+        listaHundidos = [];
+    }
+    else if (!listaContiene(4))
+    {
+    listaHundidosAdd(4);
         $("#button4").css("background-color", "green");
         cuantosHaHundido += 1;
         scoreAcumulado += 1;
         if (cuantosHaHundido === 4) {
             normalizarBotones();
             comenzarNuevoJuego();
+            listaHundidos = [];
         }
     }
 });
 
 $("#button5").on("click", function() {
-    if(botonQueNoHayQueHundir ===-1){normalizarBotonesTimeUp();}
-    if (botonQueNoHayQueHundir === 4) {
+    if(botonQueNoHayQueHundir ===-1){normalizarBotonesTimeUp();
+    }
+    else if (botonQueNoHayQueHundir === 4) {
         //perdio
         $("#button5").css("background-color", "red");
         scoreAcumulado -= 20;
         normalizarBotones();
         comenzarNuevoJuego();
-    } else {
+        listaHundidos = [];
+    }
+    else if (!listaContiene(5))
+    {
+        listaHundidosAdd(5);
         $("#button5").css("background-color", "green");
         cuantosHaHundido += 1;
         scoreAcumulado += 1;
         if (cuantosHaHundido === 4) {
             normalizarBotones();
             comenzarNuevoJuego();
+            listaHundidos = [];
         }
     }
 });
+
+function listaContiene(numero)
+{
+    for(var h=0;h<listaHundidos.length;h++)
+    {
+        if(listaHundidos[h]===numero)
+        {
+            return true;
+        }
+    }
+    return false;
+}
+function listaHundidosAdd(numeroA){
+    listaHundidos[listaHundidos.length] = numeroA;
+}
 
 function normalizarBotones() {
     $(".buttonsN").css("background-color", "#D3D3D3");
