@@ -77,12 +77,15 @@
 @media only screen and (max-device-width: 480px)
 {
     .header-text > div> h1 {
-
+        text-align: left;
+        width: 25%
+        padding-left:0;
         
     }
 
     #headerH1{
-
+        text-align: left;
+        width: 25%
         
     
     }
