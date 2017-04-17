@@ -55,7 +55,9 @@ a.about-button:hover {
 
     display: block;
 }
-
+.about-button{
+    margin-bottom: 1em;
+}
 
 
 @media only screen and (max-device-width: 480px)
