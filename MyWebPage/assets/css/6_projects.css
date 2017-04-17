@@ -1,6 +1,6 @@
 
 .thumbnail{
-	width:  20em;
+	width:  39em;
 	height: 23em;
 
 }
@@ -129,4 +129,166 @@
 .caption > p  {
     text-align: justify;
     font-size: 300%;
+}
+
+.project-img{
+  width: 30em;
+  padding: 0em 0em;
+}
+
+.project-description-title{
+  font-weight: 600;
+}
+
+.project-description{
+  text-align: justify;
+  padding: 1em 1em;
+}
+
+.panel-title{
+  font-weight: 600;
+}
+
+.repository{
+  margin: 0em 0em;
+}
+
+
+
+.btn-tech{
+  width: 3em;
+  height: 3em;
+  margin: 0.3em 0.15em;
+}
+
+.btn-icon{
+  padding: 0.2em 0.1em;
+}
+
+.panel-body{
+  padding: 0.3em 1em;
+}
+
+#btnnodered{
+  padding: 0.2em 0.5em;
+}
+
+#btnjava{
+  padding: 0em 0em;
+}
+
+#btnpostgresql{
+  padding: 0em 0em;
+}
+
+#btnmongo{
+  padding: 0em 0em;
+}
+
+#btnmeteor{
+  padding: 0em 0em;
+}
+
+#btnreact{
+  padding: 0em 0em;
+}
+
+#btnjs{
+  padding: 0em 0em;
+}
+
+#btnplay{
+  padding: 0em 0.25em;
+}
+
+#btnarduino{
+  padding: 0em 0em;
+}
+
+#btnmatlab{
+  padding: 0em 0em;
+}
+
+#btnsqldeveloper{
+  padding: 0em 0em;
+}
+
+#btnwildfly{
+  padding: 0em 0em;
+}
+
+#btnangular{
+  padding: 0em 0em;
+}
+
+#btnauth0{
+  padding: 0em 0em;
+}
+
+.java-icon{
+  width: 3em;
+}
+
+.node-red-icon{
+  width: 2em;
+  filter: grayscale(100%);
+}
+
+.js-icon{
+  width: 2em;
+  filter: grayscale(100%);
+}
+
+.postgresql-icon{
+  width: 2em;
+  filter: grayscale(100%);
+}
+
+.meteor-icon{
+  width: 2em;
+  filter: grayscale(100%);
+}
+
+.react-icon{
+  width: 2em;
+  filter: grayscale(100%);
+}
+
+.mongo-icon{
+  width: 3em;
+  filter: grayscale(100%);
+}
+
+.play-icon{
+  width: 1.4em;
+  filter: grayscale(100%);
+}
+
+.arduino-icon{
+  width: 2.5em;
+  filter: grayscale(100%);
+}
+
+.matlab-icon{
+  width: 2em;
+}
+
+.wildfly-icon{
+  width: 3em;
+  filter: grayscale(100%);
+}
+
+.sqldeveloper-icon{
+  width: 2.5em;
+  filter: grayscale(100%);
+}
+
+.angular-icon{
+  width: 2em;
+  filter: grayscale(100%);
+}
+
+.auth0-icon{
+  width: 3em;
+  filter: grayscale(100%);
 }
