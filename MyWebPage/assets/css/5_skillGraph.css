@@ -12,39 +12,39 @@ ul.graph{
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
-	background-color: Bisque ;
-	color:white;
+	background-color: #f8f8f8 ;
+	color:black;
+	font-size: 2em;
+
 }
 	
 ul.graph >li{
 	margin-bottom: .5em;
 	padding: .2em;
 	background: #600;
-	border-style: solid;
-	border-color: black;
 }
 	
 ul.graph > li.Java{
-	background-color: #600;
+	background-color: indianred;
 	width: 0;/**88%;*/
 }
 	
 ul.graph > li.JavaScript{
-	background-color: #600;
+	background-color: indianred;
 	width: 0;/**66%;*/
 }
 	
 ul.graph > li.Python{
-	background-color: #600;
+	background-color: indianred;
 	width: 0;/**40%;*/
 }
 	
 ul.graph >  li.HtmlyCss{
-	background-color: #600;
+	background-color: indianred;
 	width: 0;/**78%;*/
 }
 ul.graph >  li.SQL{
-	background-color: #600;
+	background-color: indianred;
 	width: 0;/**65%;*/
 }
 
@@ -53,6 +53,7 @@ ul.graph >  li.SQL{
 .flexContainer {
     display: flex;
     margin:auto;
+    font-size: 1.5em;
 }
 
 .flex-item{
@@ -71,7 +72,7 @@ ul.graph >  li.SQL{
 		padding: 0 3px 0 0 ;
 }
 .skillsContent{
-	background-color: Bisque ;
+	background-color: #f8f8f8 ;
 }
 #contentMobileSkills{
 	display: none;

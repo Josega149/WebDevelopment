@@ -1,13 +1,13 @@
+.header-area-table{
+    background-image: url(../images/bitmoji.jpeg) ;
+    background-repeat: no-repeat;
+}
 
 .header-area {
-
-
-    background-image: url(../images/portada.JPG);
-
     background-size: cover;
     background-position: center center;
     height: 100%;
-    filter: grayscale();
+    color:black;
 }
 
 .header-area-tablecell {
@@ -24,7 +24,8 @@
     margin-bottom: 20px;
 
     font-size: 5em;
-    
+    color:black;
+    color:black;
 }
 
 #headerH1{
@@ -34,22 +35,23 @@
     /**border-style: solid;
     border-color: black;*/
     height:5em;
+    color:black;
     
 }
 .header-text > h3 {
-    /**border-style: solid;
-    border-color: black;*/
-    width: 50%;
-    margin: 10px 10px;
     font-size: 30px;
     font-weight: 200;
     letter-spacing: 7px;
     float:left;
+    color:black;
+
+
 }
 
 .header-text {
-    color: #fff;
-    box-sizing:border-box
+    color:black;
+    box-sizing:border-box;
+    padding-left:24em;
 
 }
 
@@ -65,6 +67,11 @@
     float:right;
     position: relative;
     left: 7em;
+    color:black;
+}
+
+#welcome{
+    height: 20em;
 }
 
 @media only screen and (max-device-width: 480px)
@@ -76,9 +83,6 @@
         font-weight: 700;
 
         font-size: 40px;
-
-
-
     }
 
     #headerH1{
