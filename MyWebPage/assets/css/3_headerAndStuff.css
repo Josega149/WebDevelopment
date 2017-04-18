@@ -25,7 +25,6 @@
 
     font-size: 5em;
     color:black;
-    color:black;
 }
 
 #headerH1{
@@ -88,7 +87,8 @@
     }
     #hi{
         display:block;
-        font-size: 2em;
+        font-size: 3em;
+        padding-left: 1em;
     }
     #personalSite{
         display: none;
