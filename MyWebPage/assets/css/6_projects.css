@@ -296,13 +296,13 @@
 @media only screen and (max-device-width: 480px)
 {
   .projectsPics{
-    width:  19em;
+    width:  20em;
     height: 12em;
     background-repeat: no-repeat;
     background-position: center center;
   }
   .thumbnail{
-    width:  20em;
+    width:  21em;
     height: 14em;
   }
 
