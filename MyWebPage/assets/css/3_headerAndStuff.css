@@ -88,6 +88,7 @@
     }
     #hi{
         display:block;
+        font-size: 2em;
     }
     #personalSite{
         display: none;

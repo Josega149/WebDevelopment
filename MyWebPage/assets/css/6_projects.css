@@ -296,8 +296,8 @@
 @media only screen and (max-device-width: 480px)
 {
   .projectsPics{
-    width:  90%;
-    height: 90%;
+    width:  5em;
+    height: 5em;
     background-repeat: no-repeat;
     background-position: center center;
   }
