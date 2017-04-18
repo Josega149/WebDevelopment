@@ -292,3 +292,14 @@
   width: 3em;
   filter: grayscale(100%);
 }
+
+@media only screen and (max-device-width: 480px)
+{
+  .projectsPics{
+    width:  90%;
+    height: 90%;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+}

@@ -89,6 +89,9 @@
     #hi{
         display:block;
     }
+    #personalSite{
+        display: none;
+    }
 
 }
 
