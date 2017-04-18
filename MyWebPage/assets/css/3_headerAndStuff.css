@@ -73,27 +73,22 @@
 #welcome{
     height: 20em;
 }
+#hi{
+    display: none;
+}
 
 @media only screen and (max-device-width: 480px)
 {
     .header-text > div> h1 {
-        text-align: left;
-        width: 25%
-        padding-left:0;
-        
+        display: none;
     }
 
     #headerH1{
-        text-align: left;
-        width: 25%
-        
-    
+        display: none;
     }
-
-    .header-area-table{
-        background-image: none;
+    #hi{
+        display:block;
     }
-  
 
 }
 
