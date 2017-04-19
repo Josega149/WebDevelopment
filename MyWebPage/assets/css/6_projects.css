@@ -301,8 +301,8 @@
   .thumbnail{
     height: 13em;
   }
-.projectsPics{
-  height: 12em;
- }
+  .projectsPics{
+    height: 11em;
+   }
 
 }
