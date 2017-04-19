@@ -67,5 +67,8 @@
     #controlPanel{
       display: flex;
     }
+    #gamePanel{
+      display: block;
+    }
 
 }

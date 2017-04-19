@@ -1,11 +1,14 @@
-
+.well{
+  text-align: center;
+}
 .thumbnail{
-	width:  39em;
+	width:  100%;
 	height: 23em;
+  text-align: center;
 
 }
 .projectsPics{
-	width:  19em;
+	width:  80%;
 	height: 20em;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -295,15 +298,11 @@
 
 @media only screen and (max-device-width: 480px)
 {
-  .projectsPics{
-    width:  20em;
-    height: 12em;
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
   .thumbnail{
-    width:  21em;
-    height: 14em;
+    height: 13em;
   }
+.projectsPics{
+  height: 12em;
+ }
 
 }
