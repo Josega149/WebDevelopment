@@ -65,10 +65,13 @@
 @media only screen and (max-device-width: 480px)
 {
     #controlPanel{
-      display: block;
+      display: flex;
     }
     #gamePanel{
-      display: block;
+      display: flex;
     }
 
+}
+*{
+  border-style: solid;
 }
