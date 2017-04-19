@@ -1,4 +1,8 @@
-
+.imgAndButton{
+    text-align: center;
+    box-sizing: border-box;
+    
+}
 #imageContainer{
     text-align: center;
     border-style: solid;
@@ -39,7 +43,8 @@ a.about-button {
     margin-right: 20px;
     -webkit-transition: .4s;
     transition: .4s;
-      cursor: pointer;
+    cursor: pointer;
+    text-align: center;
 }
 a.about-button:hover {
   background: #06D85F;
