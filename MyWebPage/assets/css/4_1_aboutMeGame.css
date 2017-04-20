@@ -65,9 +65,23 @@
   width: 3em;
   padding-left: 0;
 }
-
+  .hiddens{
+    display: none;
+  }
+    .hiddenm{
+    display: none;
+  }
 @media only screen and (max-device-width: 480px)
 {
+  .hiddens{
+    display: block;
+  }
 
+}
+@media only screen and (max-device-width: 2000px)
+{
+  .hiddenm{
+    display: block;
+  }
 
 }

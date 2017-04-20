@@ -82,6 +82,9 @@
     .header-text > div> h1 {
         display: none;
     }
+    .header-text {
+        display: none;
+    }
 
     #headerH1{
         display: none;
